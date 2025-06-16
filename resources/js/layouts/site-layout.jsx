@@ -4,12 +4,12 @@ import Header from '@/components/Header';
 export default function SiteLayout({ children }) {
     return (
         <>
-            <div className='flex flex-col h-screen'>
+            <div className="className={`bg-[#FCFCFC] ${inter.className}`} dark:bg-black">
                 <Header />
-                <main className='flex-1'>
+                <main className="flex-1">
                     <article>{children}</article>
                 </main>
-                <Footer className='mt-auto'/>
+                <Footer className="mt-auto" />
             </div>
         </>
     );
